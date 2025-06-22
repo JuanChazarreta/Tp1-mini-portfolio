@@ -126,9 +126,3 @@ header > nav > a:hover {
     padding: 40px 380px;
 }
 
-.campo-contacto {
-    border: 1px solid red;
-    max-height: 700px;
-    width: 50%;
-    margin: 20px 150px;
-}
