@@ -40,19 +40,45 @@
             </div>
         </section>
 
-        <section class="contacto">
+        <section class="contacto" id="contacto">
             <h2>Informacion de contacto</h2>
-            <div>
-                <a href="mailto:juanpablochazarreta@gmail.com"><img src="img/correo.png" alt="logo correo" class="logo-contacto"></a>
-                <p>juanpablochazarreta@gmail.com</p>
-            </div>
-            <div>
-                <a href="https://www.instagram.com/juanpablochazarreta/" target="_blank"><img src="img/logotipo-de-instagram.png" alt="" class="logo-contacto"></a>
-                <p>@juanpablochazarreta</p>
-            </div>
-            <div>
-                <a href="https://github.com/JuanChazarreta" target="_blank"><img src="img/linkedin.png" alt="" class="logo-contacto"></a>
-                <p>https://github.com/JuanChazarreta</p>
+            <div class="contenedor-contacto"  >
+                <div class="logos-contacto">
+                    <a href="mailto:juanpablochazarreta@gmail.com"><img src="img/correo.png" alt="logo correo" class="logo-contacto"></a>
+                    <a href="https://www.instagram.com/juanpablochazarreta/" target="_blank"><img src="img/logotipo-de-instagram.png" alt="" class="logo-contacto"></a>
+                    <a href="https://github.com/JuanChazarreta" target="_blank"><img src="img/linkedin.png" alt="" class="logo-contacto"></a>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Formulario de Contacto</h3>
+                    <div class="nombre-apellido" >
+                        <div class="campo-nombre">
+                            <p>Nombre</p>
+                            <input type="text" id="nombre" required>
+                        </div>
+                        <div class="campo-apellido">
+                            <p>Apellido</p>
+                            <input type="text" id="apellido" required>
+                        </div>
+                        <div class="campo-correo">
+                            <p>Correo Electronico</p>
+                            <input type="email" id="correo" required>
+                        </div>
+                        <div class="campo-pais">
+                            <p>Pais</p>
+                            <select>
+                                <option value="argentina">Argentina</option>
+                                <option value="brasil">Brasil</option>
+                                <option value="chile">Chile</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="area-texto">
+                            <p>Ingrese su mensaje</p>
+                            <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
