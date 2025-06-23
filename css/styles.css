@@ -189,10 +189,11 @@ input{
     background-color: rgba(255, 255, 255, 0.384);
     border: 1px solid black;
     text-align: center;
+    cursor: pointer;
 }
 
 .area-texto{
-    margin: 70px 0px;
+    margin: 20px 0px;
 }
 textarea {
     width: 500px;
@@ -201,4 +202,15 @@ textarea {
     background-color: rgba(255, 255, 255, 0.384);
     padding: 20px 30px;
     border: 1px solid black;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
 }
