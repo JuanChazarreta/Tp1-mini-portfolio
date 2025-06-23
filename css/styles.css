@@ -62,7 +62,7 @@ header > nav > a:hover {
 /*Texto Biografia*/
 .bio > h2{
     font-size: 35px;
-    color: rgb(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0, 0.8);
     margin: 40px 0px;
 }
 
@@ -117,12 +117,30 @@ header > nav > a:hover {
 
 .contacto{
     background-image: url(/img/Fondo.jpg);
-    height: 100vh
+    height: 100vh;
+    display: flex;
+    flex-direction: column; ;
 }
 
 .contacto > h2 {
     font-size: 35px;
-    color: rgb(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0, 0.8);
     padding: 40px 380px;
 }
 
+.logo-contacto{
+    width: 80px;
+    margin: 50px 20px 50px 70px; 
+}
+
+.contacto > div {
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.contacto > div > p {
+    font-size: 25px;
+}
